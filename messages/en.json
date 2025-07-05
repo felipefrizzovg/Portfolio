@@ -16,8 +16,8 @@
 
   "about": {
     "title": "About me",
-    "subtitle": "",
-    "text": "",
+    "subtitle": "Full Stack Developer | React, Next.js & Node.js Specialist | TypeScript | Building Modern, Scalable Interfaces",
+    "text": "I am a Full Stack Developer with strong experience in building modern, scalable, and high-performance web applications. I specialize in React, Next.js, React Native, TypeScript, Node.js, HTML, and CSS (including Tailwind and Styled Components), with a proven track record in developing critical authentication flows, interactive dashboards, and seamless API integrations. My background includes delivering robust solutions for large-scale projects, collaborating with multidisciplinary teams, and applying best practices such as Clean Code, SOLID, and automated testing. I am committed to delivering clean, secure, and efficient code, always focused on innovation, usability, and business goals",
     "button": "My resume"
   },
 

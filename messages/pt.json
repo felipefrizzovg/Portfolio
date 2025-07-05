@@ -16,8 +16,8 @@
 
   "about": {
     "title": "Sobre mim",
-    "subtitle": "",
-    "text": "",
+    "subtitle": "Desenvolvedor Full Stack | Especialista em React, Next.js & Node.js | TypeScript | Interfaces Modernas e Escaláveis",
+    "text": "Sou desenvolvedor Full Stack com sólida experiência em criar aplicações web modernas, escaláveis e de alta performance. Domino React, Next.js, React Native, TypeScript, Node.js, HTML e CSS (incluindo Tailwind e Styled Components), com histórico comprovado em fluxos críticos de autenticação, dashboards interativos e integrações eficientes com APIs. Já atuei em projetos de grande porte, colaborando com equipes multidisciplinares e aplicando as melhores práticas do mercado, como Clean Code, SOLID e testes automatizados. Entrego código limpo, seguro e eficiente, sempre focado em inovação, usabilidade e nos objetivos do negócio",
     "button": "Meu currículo"
   },
 

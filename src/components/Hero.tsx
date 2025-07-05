@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Button from "./Button";
-import { ReadCvLogoIcon, ArrowRightIcon } from "@phosphor-icons/react";
+import { PiReadCvLogo, PiArrowRight } from "react-icons/pi";
 import { useLocale, useTranslations } from "next-intl";
 
 export default function Hero() {
@@ -19,14 +19,15 @@ export default function Hero() {
         <div className="flex gap-4 mt-8">
           <Button
             text={t('resume-button')}
-            icon={<ReadCvLogoIcon size={24} />}
+            icon={<PiReadCvLogo size={24} />}
             color="bg-surface-secondary"
             href={cvFile}
             download
           />
+          
           <Button 
             text={t('touch-button')}
-            icon={<ArrowRightIcon size={24} />}
+            icon={<PiArrowRight size={24} />}
             iconPosition="right"
           />
         </div>
