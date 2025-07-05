@@ -1,0 +1,45 @@
+{
+  "menu": {
+    "item-1": "Início",
+    "item-2": "Sobre",
+    "item-3": "Projetos",
+    "item-4": "Contato"
+  },
+
+  "hero": {
+    "greetings": "Olá, Eu sou o Felipe",
+    "subtitle": "Desenvolvedor Full-stack",
+    "text": "Mais de 4 anos de experiência no setor de tecnologia. Sou especializado na criação de aplicativos móveis e da Web inovadores usando tecnologias como React, React Native e Node.js.",
+    "resume-button": "Meu currículo",
+    "touch-button": "Entre em contato"
+  },
+
+  "about": {
+    "title": "Sobre mim",
+    "subtitle": "",
+    "text": "",
+    "button": "Meu currículo"
+  },
+
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Dê uma olhada nos meus projetos destacados",
+    "project-1-title": "",
+    "project-1-subtitle": "",
+    "project-2-title": "",
+    "project-2-subtitle": "",
+    "project-3-title": "",
+    "project-3-subtitle": "",
+    "button": "Ver todos"
+  },
+
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Gostou de meu trabalho? Vamos trabalhar juntos",
+    "text": "Estou sempre disposto a conversar. Envie-me um e-mail para felipefrizzovg@gmail.com ou fale comigo nas mídias sociais.",
+    "name-input-placeholder": "Nome",
+    "email-input-placeholder": "E-mail",
+    "message-input-placeholder": "Sua mensagem",
+    "button": "Me mande uma mensagem"
+  }
+}

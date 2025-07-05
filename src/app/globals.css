@@ -3,13 +3,89 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --primary-color-500: #8A42DB;
+  --primary-color-400: #9955E8;
+  --secondary-color: #7DFFAF;
+
+  --surface-background: #171023;
+  --surface-primary: #2C243B;
+  --surface-secondary: #413A4F;
+  --surface-tertiary: #4E4563;
+
+  --text-primary: #F5F6F6;
+  --text-secondary: #CDD0D4;
+
+  --font-size-heebo-h1: 32px;
+  --font-line-height-heebo-h1: 40;
+  --font-weight-heebo-h1: 500;
+
+  --font-size-heebo-h2: 24px;
+  --font-line-height-heebo-h2: 32;
+  --font-weight-heebo-h2: 500;
+
+  --font-size-heebo-reading: 18px;
+  --font-line-height-heebo-reading: 32;
+  --font-weight-heebo-reading: 400;
+
+  --font-size-heebo-p: 16px;
+  --font-line-height-heebo-p: 24;
+  --font-weight-heebo-p: 400;
+
+  --font-size-kalam-hs: 40px;
+  --font-line-height-kalam-hs: 56;
+  --font-weight-kalam-hs: 400;
+
+  --font-size-kalam-section: 16px;
+  --font-line-height-kalam-section: 16;
+  --font-weight-kalam-section: 400;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --font-heebo: var(--font-heebo);
+  --font-kalam: var(--font-kalam);
+
+  --text-heebo-h1: var(--font-size-heebo-h1);
+  --leading-heebo-h1: var(--font-line-height-heebo-h1);
+  --font-weight-heebo-h1: var(--font-weight-heebo-h1);
+
+  --text-heebo-h2: var(--font-size-heebo-h2);
+  --leading-heebo-h2: var(--font-line-height-heebo-h2);
+  --font-weight-heebo-h2: var(--font-weight-heebo-h2);
+
+  --text-heebo-reading: var(--font-size-heebo-reading);
+  --leading-heebo-reading: var(--font-line-height-heebo-reading);
+  --font-weight-heebo-reading: var(--font-weight-heebo-reading);
+
+  --text-heebo-p: var(--font-size-heebo-p);
+  --leading-heebo-p: var(--font-line-height-heebo-p);
+  --font-weight-heebo-p: var(--font-weight-heebo-p);
+
+  --text-kalam-hs: var(--font-size-kalam-hs);
+  --leading-kalam-hs: var(--font-line-height-kalam-hs);
+  --font-weight-kalam-hs: var(--font-weight-kalam-hs);
+
+  --text-kalam-section: var(--font-size-kalam-section);
+  --leading-kalam-section: var(--font-line-height-kalam-section);
+  --font-weight-kalam-section: var(--font-weight-kalam-section);
+
+  --color-primary-color-500: var(--primary-color-500);
+  --color-primary-color-400: var(--primary-color-400);
+  --color-secondary-color: var(--secondary-color);
+
+  --color-surface-background: var(--surface-background);
+  --color-surface-primary: var(--surface-primary);
+  --color-surface-secondary: var(--surface-secondary);
+  --color-surface-tertiary: var(--surface-tertiary);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  
+  --color-primary: var(--primary-color-500);
+  --color-secondary: var(--secondary-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +96,8 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--surface-background);
+  color: var(--text-primary);
+  font-family: var(--font-heebo), sans-serif;
+  box-sizing: border-box;
 }
