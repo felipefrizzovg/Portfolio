@@ -1,5 +1,3 @@
-"use client"
-
 import Image from "next/image";
 import Button from "./Button";
 import { PiReadCvLogo, PiArrowRight } from "react-icons/pi";
@@ -11,7 +9,7 @@ export default function Hero() {
   const cvFile = locale === "pt" ? "cv-felipe-pt.pdf" : "cv-felipe-en.pdf"
 
   return (
-    <section className="flex justify-around items-center px-[112px] py-24 gap-[136px]">
+    <section className="flex justify-around items-center px-[112px] py-24 gap-[136px]" id="home">
       <div className="flex flex-col">
         <h1 className="font-kalam text-kalam-hs font-kalam-hs mb-8 bg-gradient-to-r from-primary-color-500 to-secondary-color bg-clip-text text-transparent inline-block w-fit">{t('greetings')}</h1> {/* eslint-disable-line */}
         <h2 className="font-heebo-h2 text-heebo-h2">{t('subtitle')}</h2>
@@ -24,7 +22,7 @@ export default function Hero() {
             href={cvFile}
             download
           />
-          
+
           <Button 
             text={t('touch-button')}
             icon={<PiArrowRight size={24} />}

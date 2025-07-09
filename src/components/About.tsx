@@ -19,7 +19,7 @@ export default function About() {
   const cvFile = locale === "pt" ? "cv-felipe-pt.pdf" : "cv-felipe-en.pdf"
 
   return (
-    <section className="p-10 relative">
+    <section className="p-10 relative" id="about">
       <Image src="/graphic-03.svg" width={120} height={34} alt="Seta" className="absolute top-[-4rem] right-1/3 rotate-135" />
       <div className="bg-surface-primary rounded-sm p-[72px] flex justify-evenly gap-[136px]">
         <Image width={500} height={400} src="/pana.svg" alt="Coding Computer" />

@@ -5,6 +5,8 @@ import { routing } from "@/i18n/routing";
 import { Heebo, Kalam } from "next/font/google";
 import type { Metadata } from "next";
 import "../globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const heebo = Heebo({
   variable: "--font-heebo",
@@ -40,7 +42,9 @@ export default async function LocaleLayout({
         className={`${heebo.variable} ${kalam.variable} antialiased box-border`}
       >
         <NextIntlClientProvider>
-          {children}
+          <Header />
+            {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

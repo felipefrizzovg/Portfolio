@@ -7,7 +7,7 @@
   },
 
   "hero": {
-    "greetings": "Olá, Eu sou o Felipe",
+    "greetings": "Olá, Eu sou o Felipe Frizzo",
     "subtitle": "Desenvolvedor Full-stack",
     "text": "Mais de 4 anos de experiência no setor de tecnologia. Sou especializado na criação de aplicativos móveis e da Web inovadores usando tecnologias como React, React Native e Node.js.",
     "resume-button": "Meu currículo",
@@ -24,22 +24,40 @@
   "projects": {
     "title": "Projetos",
     "subtitle": "Dê uma olhada nos meus projetos destacados",
-    "project-1-title": "",
-    "project-1-subtitle": "",
-    "project-2-title": "",
-    "project-2-subtitle": "",
-    "project-3-title": "",
-    "project-3-subtitle": "",
-    "button": "Ver todos"
+    "button": "Ver todos",
+    "devlinks": {
+      "title": "DevLinks",
+      "period": "Jul - Dez 2022",
+      "description": "Um agregador de links para redes sociais.",
+      "imageAlt": "Imagem Devlinks"
+    },
+    "feedback-widget": {
+      "title": "Feedback Widget",
+      "period": "Jan - Mar 2023",
+      "description": "Um widget para coletar feedback dos usuários.",
+      "imageAlt": "Imagem Feedback Widget"
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "period": "Jan - Mar 2023",
+      "description": "Um marketplace completo para fazer compras",
+      "imageAlt": "Imagem Marketplace"
+    }
   },
 
   "contact": {
     "title": "Contato",
     "subtitle": "Gostou de meu trabalho? Vamos trabalhar juntos",
-    "text": "Estou sempre disposto a conversar. Envie-me um e-mail para felipefrizzovg@gmail.com ou fale comigo nas mídias sociais.",
+    "text-1": "Estou sempre disposto a conversar. Envie-me um e-mail para ",
+    "text-2": " ou fale comigo nas mídias sociais.",
+    "email": "felipefrizzovg@gmail.com",
     "name-input-placeholder": "Nome",
     "email-input-placeholder": "E-mail",
     "message-input-placeholder": "Sua mensagem",
     "button": "Me mande uma mensagem"
+  },
+
+  "footer": {
+    "text": "Felipe Frizzo 2025"
   }
 }

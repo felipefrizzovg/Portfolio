@@ -7,7 +7,7 @@
   },
 
   "hero": {
-    "greetings": "Hi, I'm Felipe",
+    "greetings": "Hi, I'm Felipe Frizzo",
     "subtitle": "Full-stack developer",
     "text": "Over 4 years of experience in the tech industry. I specialize in building innovative web and mobile applications using technologies such as React, React Native, and Node.js.",
     "resume-button": "My resume",
@@ -24,19 +24,33 @@
   "projects": {
     "title": "Projects",
     "subtitle": "Take a look at my highlighted projects",
-    "project-1-title": "",
-    "project-1-subtitle": "",
-    "project-2-title": "",
-    "project-2-subtitle": "",
-    "project-3-title": "",
-    "project-3-subtitle": "",
-    "button": "See all"
+    "button": "See all",
+    "devlinks": {
+      "title": "DevLinks",
+      "period": "Jul - Dec 2024",
+      "description": "A link aggregator for social media.",
+      "imageAlt": "Devlinks Image"
+    },
+    "feedback-widget": {
+      "title": "Feedback Widget",
+      "period": "Jan - Mar 2023",
+      "description": "A widget for collecting user feedback.",
+      "imageAlt": "Feedback Widget Image"
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "period": "Jan - Mar 2023",
+      "description": "A Marketplace to buy things",
+      "imageAlt": "Feedback Widget Image"
+    }
   },
 
   "contact": {
     "title": "Contact",
     "subtitle": "Enjoyed my work? Let’s work together",
-    "text": "I’m always up for a chat. Pop me an email at felipefrizzovg@gmail.com or give me a shout on social media.",
+    "text-1": "I’m always up for a chat. Pop me an email at ",
+    "text-2": " or give me a shout on social media.",
+    "email": "felipefrizzovg@gmail.com",
     "name-input-placeholder": "Name",
     "email-input-placeholder": "E-mail",
     "message-input-placeholder": "Your message",

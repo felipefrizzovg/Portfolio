@@ -11,7 +11,7 @@ export default function Header() {
       <h1 className="">Felipe<span className="font-bold">Frizzo</span></h1>
       <nav>
         <ul className="flex space-x-4">
-          <li><Link className="p-2 border-2 border-transparent hover:border-text-primary rounded-sm" href="#">{t('item-1')}</Link></li>
+          <li><Link className="p-2 border-2 border-transparent hover:border-text-primary rounded-sm" href="#home">{t('item-1')}</Link></li>
           <li><Link className="p-2 border-2 border-transparent hover:border-text-primary rounded-sm" href="#about">{t('item-2')}</Link></li>
           <li><Link className="p-2 border-2 border-transparent hover:border-text-primary rounded-sm" href="#projects">{t('item-3')}</Link></li>
           <li><Link className="p-2 border-2 border-transparent hover:border-text-primary rounded-sm" href="#contact">{t('item-4')}</Link></li>
