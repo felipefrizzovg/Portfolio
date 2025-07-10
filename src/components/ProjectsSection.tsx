@@ -5,10 +5,12 @@ import { PiArrowRight } from "react-icons/pi";
 import { projects } from "@/data/projectsData";
 
 
-export default function Projects() {
+export default function ProjectsSection() {
   const t = useTranslations('projects')
 
-  const translatedProjects = projects.map((project) => ({
+  const highlightedProjects = projects.filter((p) => p.highlighted)
+
+  const translatedProjects = highlightedProjects.map((project) => ({
     ...project,
     title: t(`${project.slug}.title`),
     period: t(`${project.slug}.period`),
@@ -34,6 +36,7 @@ export default function Projects() {
         text={t('button')}
         icon={<PiArrowRight size={24} />}
         iconPosition="right"
+        href="/projects"
       />
     </section>
   )

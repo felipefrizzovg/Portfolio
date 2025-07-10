@@ -29,19 +29,40 @@
       "title": "DevLinks",
       "period": "Jul - Dez 2022",
       "description": "Um agregador de links para redes sociais.",
-      "imageAlt": "Imagem Devlinks"
+      "imageSrc": "/fundoProjetos.png",
+      "imageAlt": "Imagem Devlinks",
+      "role-title": "Meu papel:",
+      "role": "Desenvolvedor Full-stack",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex nostrum numquam magni sit veniam aliquid repellat voluptas sapiente a molestiae modi non quaerat consectetur adipisci tenetur maiores. Error, iusto!",
+      "links-title": "Dê uma olhada nesse projeto",
+      "live-button": "Site",
+      "code-button": "Código"
     },
     "feedback-widget": {
       "title": "Feedback Widget",
       "period": "Jan - Mar 2023",
       "description": "Um widget para coletar feedback dos usuários.",
-      "imageAlt": "Imagem Feedback Widget"
+      "imageSrc": "/fundoProjetos.png",
+      "imageAlt": "Imagem Feedback Widget",
+      "role-title": "Meu papel:",
+      "role": "Desenvolvedor Full-stack",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex nostrum numquam magni sit veniam aliquid repellat voluptas sapiente a molestiae modi non quaerat consectetur adipisci tenetur maiores. Error, iusto!",
+      "links-title": "Dê uma olhada nesse projeto",
+      "live-button": "Site",
+      "code-button": "Código"
     },
     "marketplace": {
       "title": "Marketplace",
       "period": "Jan - Mar 2023",
       "description": "Um marketplace completo para fazer compras",
-      "imageAlt": "Imagem Marketplace"
+      "imageSrc": "/fundoProjetos.png",
+      "imageAlt": "Imagem Marketplace",
+      "role-title": "Meu papel:",
+      "role": "Desenvolvedor Full-stack",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex nostrum numquam magni sit veniam aliquid repellat voluptas sapiente a molestiae modi non quaerat consectetur adipisci tenetur maiores. Error, iusto!",
+      "links-title": "Dê uma olhada nesse projeto",
+      "live-button": "Site",
+      "code-button": "Código"
     }
   },
 

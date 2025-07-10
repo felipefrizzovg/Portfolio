@@ -27,6 +27,7 @@ export default function Hero() {
             text={t('touch-button')}
             icon={<PiArrowRight size={24} />}
             iconPosition="right"
+            href="#contact"
           />
         </div>
       </div>

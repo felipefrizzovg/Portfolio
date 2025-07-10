@@ -27,7 +27,7 @@ export default function Button(props: Props) {
     textColor = "text-primary",
   } = props
 
-  const classes = `${color} ${textColor} flex items-center gap-2 px-6 py-4 rounded-md transition-colors text-text-primary border-2 border-transparent hover:border-text-primary ${iconPosition === "right" ? "flex-row-reverse" : "flex-row"}`
+  const classes = `${color} ${textColor} flex items-center gap-2 px-6 py-4 rounded-xl transition-colors text-text-primary border-2 border-transparent hover:border-text-primary ${iconPosition === "right" ? "flex-row-reverse" : "flex-row"}`
 
   if ("href" in props && props.href) {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
