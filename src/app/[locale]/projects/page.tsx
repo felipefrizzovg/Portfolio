@@ -14,8 +14,8 @@ export default function Projects() {
   }));
 
   return (
-    <main className="py-[72px] px-28">
-      <div className="grid grid-cols-3 justify-center gap-6">
+    <main className="py-4 px-8 md:py-8 md:px-16 lg:py-[72px] lg:px-28">
+      <div className="flex flex-col lg:grid lg:grid-cols-3 justify-center gap-6">
         {translatedProjects.map((project, idx) => {
           return <ProjectCard key={idx} {...project} />;
         })}

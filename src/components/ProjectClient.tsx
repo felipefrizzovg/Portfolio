@@ -17,8 +17,8 @@ export default function ProjectClient({ project, translations }: ProjectProps) {
   const router = useRouter()
 
   return (
-    <main className="px-28 py-8 flex justify-center items-start gap-20 relative">
-      <button className="absolute top-[2rem] left-[7rem] p-3 bg-surface-secondary rounded-xl cursor-pointer border-2 border-transparent hover:border-text-primary" onClick={() => router.back()}><PiArrowLeft size={24} className="text-text-primary" /></button>
+    <main className="flex flex-col p-6 gap-4 justify-center md:px-28 md:py-8 md:flex-row md:items-start md:gap-20 relative"> {/* px-28 py-8 flex justify-center items-start gap-20 relative */}
+      <button className="md:block md:absolute md:top-[2rem] md:left-[7rem] p-3 bg-surface-secondary rounded-xl cursor-pointer border-2 border-transparent hover:border-text-primary hidden" onClick={() => router.back()}><PiArrowLeft size={24} className="text-text-primary" /></button>
       <div className="flex flex-col">
         <Image width={800} height={360} src={translations.imageSrc} alt={translations.imageAlt} className="rounded-tl-xl rounded-tr-xl" />
         <div className="p-12 pt-8 bg-surface-primary rounded-bl-xl rounded-br-xl flex flex-col gap-4 max-w-[800px]">

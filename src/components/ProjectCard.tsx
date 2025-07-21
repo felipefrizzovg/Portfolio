@@ -21,7 +21,7 @@ export default function ProjectCard(props: ProjectCardProps) {
   const CardContent = (
     <div className="px-6 pt-4 pb-8 bg-surface-primary rounded-xl">
       <div className="flex flex-col gap-4">
-        <Image src={imageSrc} alt={imageAlt} width={672} height={320} className="rounded-tl-xl rounded-tr-xl" />
+        <Image src={imageSrc} alt={imageAlt} width={672} height={320} className="rounded-tl-xl rounded-tr-xl w-full" />
 
         <div className="flex justify-between items-center">
           <p className="text-text-secondary text-[14px]">{period}</p>
