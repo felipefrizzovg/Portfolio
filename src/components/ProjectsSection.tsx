@@ -19,13 +19,13 @@ export default function ProjectsSection() {
   }))
   
   return (
-    <section className="py-[72px] px-28 flex flex-col gap-10 items-center" id="projects">
-      <div className="text-center">
-        <h1 className="text-kalam-section text-secondary-color font-kalam mb-2">{t('title')}</h1>
+    <section className="py-[72px] px-4 md:px-28 flex flex-col gap-10 items-center" id="projects">
+      <div className="w-full text-center mb-2">
+        <h1 className="text-kalam-section text-secondary-color font-kalam mb-1 md:mb-2">{t('title')}</h1>
         <h2 className="text-heebo-h2 font-heebo-h2">{t('subtitle')}</h2>
       </div>
 
-      <div className="flex justify-center items-center gap-8">
+      <div className="w-full flex flex-col gap-4 items-center max-w-[400px] md:max-w-[600px] lg:max-w-[1800px] lg:flex-row lg:justify-center md:gap-8">
         {translatedProjects.map((project, idx) => {
           return <ProjectCard key={idx} {...project} />
         })}

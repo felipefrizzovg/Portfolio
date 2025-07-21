@@ -20,12 +20,19 @@ export default function About() {
 
   return (
     <section className="p-10 relative" id="about">
-      <Image src="/graphic-03.svg" width={120} height={34} alt="Seta" className="absolute top-[-4rem] right-1/3 rotate-135" />
-      <div className="bg-surface-primary rounded-sm p-[72px] flex justify-evenly gap-[136px]">
-        <Image width={500} height={400} src="/pana.svg" alt="Coding Computer" />
+      <Image src="/graphic-03.svg" width={120} height={34} alt="Seta" className="absolute hidden lg:block lg:top-[-4rem] lg:right-1/3 rotate-135" />
+      <div className="
+        bg-surface-primary rounded-lg 
+        p-6 sm:p-10 md:p-16 lg:p-[72px]
+        flex flex-col lg:flex-row
+        justify-center lg:justify-evenly 
+        gap-8 md:gap-16 lg:gap-[100px]
+        items-center
+      ">
+        <Image width={500} height={400} src="/pana.svg" alt="Coding Computer" className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:w-[300px] lg:max-w-none xl:w-[600px]" />
 
         <div className="flex flex-col items-start gap-8">
-          <div className="flex gap-6">
+          <div className="flex gap-3 sm:gap-4 md:gap-6 flex-wrap">
             <SiReact size={24} color="#9955E8" />
             <SiNextdotjs size={24} color="#9955E8" />
             <SiNodedotjs size={24} color="#9955E8" />

@@ -9,9 +9,9 @@ export default function Hero() {
   const cvFile = locale === "pt" ? "cv-felipe-pt.pdf" : "cv-felipe-en.pdf"
 
   return (
-    <section className="flex justify-around items-center px-[112px] py-24 gap-[136px]" id="home">
+    <section className="flex flex-col-reverse items-center px-4 py-12 gap-8 max-w-md mx-auto md:max-w-[1800px] md:flex-row md:px-[112px] md:py-24 md:gap-[136px] md:justify-around" id="home">
       <div className="flex flex-col">
-        <h1 className="font-kalam text-kalam-hs font-kalam-hs mb-8 bg-gradient-to-r from-primary-color-500 to-secondary-color bg-clip-text text-transparent inline-block w-fit">{t('greetings')}</h1> {/* eslint-disable-line */}
+        <h1 className="font-kalam text-kalam-hs font-kalam-hs mb-8 bg-gradient-to-r from-primary-color-500 to-secondary-color bg-clip-text text-transparent inline-block w-fit">{t('greetings')}</h1>
         <h2 className="font-heebo-h2 text-heebo-h2">{t('subtitle')}</h2>
         <p className="text-text-secondary max-w-xl">{t('text')}</p>
         <div className="flex gap-4 mt-8">

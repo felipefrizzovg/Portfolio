@@ -9,9 +9,18 @@ export default function Contact() {
   const t = useTranslations("contact");
 
   return (
-    <section className="p-10" id="contact">
-      <div className="bg-surface-primary rounded-sm p-[72px] flex gap-[136px]">
-        <div className="flex flex-col gap-8">
+    <section className="px-4 py-8 sm:px-6 sm:py-12 md:p-10" id="contact">
+      <div 
+        className="
+          flex flex-col items-center gap-8
+          bg-surface-primary rounded-xl 
+          p-6
+          max-w-md mx-auto
+          shadow-md
+          md:flex-row md:items-start md:justify-between
+          md:p-[72px] md:gap-[136px] md:max-w-none md:mx-0
+      ">
+        <div className="flex flex-col items-center gap-6 md:items-start md:gap-8">
           <Image
             width={160}
             height={160}
@@ -46,7 +55,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="items-start flex-1">
+        <div className="w-full md:items-start md:flex-1">
           <ContactForm />
         </div>
       </div>
