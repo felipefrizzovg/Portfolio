@@ -192,8 +192,6 @@ Add environment variables in your project settings on Vercel:
 
 ### Desktop
 
-### Desktop
-
 ![Home desktop](public/portfolio-1.png)
 ![Projects desktop](public/portfolio-2.png)
 
