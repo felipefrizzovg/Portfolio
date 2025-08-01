@@ -192,13 +192,15 @@ Add environment variables in your project settings on Vercel:
 
 ### Desktop
 
-![Home desktop](portfolio-1.png)
-![Projects desktop](portfolio-2.png)
+### Desktop
+
+![Home desktop](public/portfolio-1.png)
+![Projects desktop](public/portfolio-2.png)
 
 ### Mobile
 
-![Home mobile](portfolio-3.png)
-![Menu mobile](portfolio-4.png)
+![Home mobile](public/portfolio-3.png)
+![Menu mobile](public/portfolio-4.png)
 
 ## 📬 Contact
 
