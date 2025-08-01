@@ -78,8 +78,15 @@ Adicione as variáveis  `.env.local`  manualmente no painel da Vercel:
 
 ## 📸 Screenshots
 
-> (Inclua capturas de tela das versões mobile e desktop, animações, etc.)
-> 
+### Desktop
+
+![Home desktop](portfolio-1.png)
+![Projects desktop](portfolio-2.png)
+
+### Mobile
+
+![Home mobile](portfolio-3.png)
+![Menu mobile](portfolio-4.png)
 
 ## 📬 Contato
 
@@ -183,10 +190,15 @@ Add environment variables in your project settings on Vercel:
 
 ## 📸 Screenshots
 
-![Página inicial da aplicação - Desktop](public/portfolio-1.png)
-![Página inicial da aplicação - Mobile](public/portfolio-3.png)
-![Página Sobre da aplicação - Desktop](public/portfolio-2.png)
-![Menu Hambúrguer - Mobile](public/portfolio-4.png)
+### Desktop
+
+![Home desktop](portfolio-1.png)
+![Projects desktop](portfolio-2.png)
+
+### Mobile
+
+![Home mobile](portfolio-3.png)
+![Menu mobile](portfolio-4.png)
 
 ## 📬 Contact
 
